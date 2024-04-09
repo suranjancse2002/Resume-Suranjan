@@ -76,13 +76,13 @@ export default function Projects() {
                                 <div className="body">In this project I have used React Js and CSS along with that. This website is fully responsive made with CSS media queries. Fontawesome icons are used in this website.</div>
                             </div>
                             <div className="project-links">
-                                <a href="https://github.com/suranjancse2002/Expense-Tracker" target='_blank'>
+                                <a href="https://github.com/suranjancse2002/Resume-Suranjan" target='_blank'>
                                     <FontAwesomeIcon className='icon' icon={faGithub} />
                                 </a>
                                 <a href="https://youtu.be/kEavUbpQNak" target='_blank'>
                                     <FontAwesomeIcon className='icon' icon={faYoutube} />
                                 </a>
-                                <a href="https://youtu.be/kEavUbpQNak" target='_blank'>
+                                <a href="https://github.com/suranjancse2002/Resume-Suranjan" target='_blank'>
                                     <FontAwesomeIcon className='icon' icon={faGlobe} />
                                 </a>
                             </div>
