@@ -1,0 +1,72 @@
+.navbar li:hover{
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+    font-size: 1.2rem;
+    color: rgb(237, 192, 133);
+}
+
+a{
+    color: white;
+}
+.contact-us-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    
+}
+
+.contact-us-container{
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    /* height: 1rem; */
+    gap: 1rem;
+    justify-content: center;
+    height: 88vh;
+}
+
+.input{
+    padding: 10px;
+    font-size: 1.1rem;
+    background-color: #1f1f1f;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    transition: transform ease-in-out 200ms, box-shadow ease-in-out 200ms;
+}
+
+.input-textarea{
+    resize: none;
+}
+
+.input:hover{
+    transform: translateX(-10px);
+}
+
+.input:focus{
+    box-shadow: rgba(237, 192, 133, 0.6) 0px 0.5px 10px 0px, rgba(237, 192, 133, 0.54) 0px 0px 0px 1px;
+
+}
+
+.input::selection{
+    background-color: red;
+}
+.btn{
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: #1f1f1f;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: rgb(237, 192, 133);
+    transition: box-shadow ease-in-out 200ms;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: rgba(237, 192, 133, 0.6) 0px 0.5px 10px 0px, rgba(237, 192, 133, 0.54) 0px 0px 0px 1px;
+}

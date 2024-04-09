@@ -1,0 +1,84 @@
+.navbar li:hover{
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+    font-size: 1.2rem;
+    color: rgb(237, 192, 133);
+}
+
+a{
+    color: white;
+}
+.project-container{
+    margin-top: 3rem;
+}
+
+.container-project-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1f1f1f;
+}
+
+.project-container{
+    display: flex;
+    flex-direction: column;
+    width: 80rem;
+    border-radius: 10px;
+}
+
+.project-details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+.project-details .project-description{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.project-description .project-title{
+    display: flex;
+    flex-direction: column;
+    width: 58.75rem;
+}
+
+.project-img img{
+    width: 20rem;
+}
+
+
+.project-img a:hover{
+    cursor: pointer;
+}
+
+.project-links{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.project-links .icon{
+    font-size: 1.5rem;
+    transition: transform ease-in 200ms;
+    background-color: #242424;
+}
+
+.project-links .icon:hover{
+    transform: translateY(-10px);
+    box-shadow: rgba(237, 192, 133, 0.685) 0px 10px 36px 0px;
+    cursor: pointer;
+}
+
+.project-title .body{
+    display: flex;
+}
